@@ -36,12 +36,16 @@ public class Snack {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void addQuantity(int quantity) {
+        this.quantity = this.quantity + quantity;
     }
 
-    public double getCost() {
-        return cost;
+    public void sellQuantity(int quantity) {
+        this.quantity = this.quantity - quantity;
+    }
+
+    public double getCost(int quantity) {
+        return cost * quantity;
     }
 
     public void setCost(double cost) {
