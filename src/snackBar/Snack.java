@@ -59,4 +59,7 @@ public class Snack {
     public void setVendingMachineId(int vendingMachineId) {
         this.vendingMachineId = vendingMachineId;
     }
+
+    // @Override
+    // public String
 }
